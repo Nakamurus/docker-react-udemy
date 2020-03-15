@@ -7,3 +7,5 @@ test('renders learn react link', () => {
   const linkElement = getByText(/Reactを学べ/i);
   expect(linkElement).toBeInTheDocument();
 });
+
+ 
